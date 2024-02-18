@@ -1,0 +1,74 @@
+/* Todo.css */
+
+.background {
+    background-color: aqua;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.todo-container {
+
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color:cornflowerblue;
+
+
+}
+
+.todo-container h1 {
+  font-family: monospace;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 5px;
+    outline: none;
+    background-color: violet;
+    
+  
+}
+button {
+    padding: 8px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #120260;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    background-color: #034569;
+    padding-left: 20px;
+    border-radius: 20px;
+    
+    
+}
+
+li {
+    
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #dc3545;
+}
